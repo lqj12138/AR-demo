@@ -13,9 +13,10 @@
       <a-assets>
         <a-asset-item id="scene" src="res/scene.gltf"></a-asset-item>
       </a-assets>
-      <a-marker-camera type="pattern" url="res/pattern-marker.patt">
+      <a-marker type="pattern" preset="custom" url="res/pattern-marker.patt">
         <a-entity gltf-model="#scene"></a-entity>
-      </a-marker-camera>
+      </a-marker>
+      <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
