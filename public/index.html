@@ -16,10 +16,10 @@
       arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
     >
       <a-assets>
-        <a-asset-item id="car-scene" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
+        <a-asset-item id="car-scene" src="res/scene.gltf"></a-asset-item>
       </a-assets>
       <a-marker type="barcode" value="6">
-        <a-entity gltf-model="#car-scene" scale="2"></a-entity>
+        <a-entity gltf-model="#car-scene" scale="2 2 2"></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
