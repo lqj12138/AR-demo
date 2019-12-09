@@ -15,4 +15,4 @@ jobs:
     - name: Run deploy script
       run: |
         npm install
-        npm start
+        npm start --port 80
