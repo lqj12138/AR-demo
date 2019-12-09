@@ -1,0 +1,25 @@
+{
+  "name": "ar-demo",
+  "version": "1.0.0",
+  "description": "ar demo",
+  "main": "index.html",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqj12138/AR-demo.git"
+  },
+  "keywords": [
+    "ar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lqj12138/AR-demo/issues"
+  },
+  "homepage": "https://lqj12138.github.io/AR-demo",
+  "dependencies": {
+    "harp": "^0.31.0"
+  }
+}
