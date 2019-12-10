@@ -5,7 +5,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <title>汤圆的鸭子</title>
+    <title>汤圆的小汽车</title>
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
@@ -17,11 +17,10 @@
       arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
     >
       <a-assets>
-        <a-asset-item id="duck-scene" src="res/scene.gltf"></a-asset-item>
+        <a-asset-item id="model-scene" src="res/scene.gltf"></a-asset-item>
       </a-assets>
       <a-marker type="barcode" value="6">
-        <a-entity position='-3 2 0' text="width: 5; value: 汤圆的鸭子"></a-entity>
-        <a-entity gltf-model="#duck-scene"></a-entity>
+        <a-entity gltf-model="#model-scene"></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
